@@ -22,6 +22,7 @@ public class AboutDialog {
         BorderPane aboutPane = createAboutPane(stage);
         Scene scene = new Scene(aboutPane, 300, 180);
         
+	scene.getRoot().setStyle("-fx-font-family: 'serif'");
         stage.setScene(scene);
         stage.setTitle("About");
         stage.show();
